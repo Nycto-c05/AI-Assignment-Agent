@@ -102,7 +102,7 @@ def main():
     uploaded_font = st.file_uploader("Upload your handwriting.ttf font file:", type=["ttf"])
 
     # Set default font path if no font is uploaded
-    default_font_path = "/home/nycto/EduAI/ocr-help/NanumPenScript-Regular.ttf"  # Path to your default handwriting font
+    default_font_path = "./NanumPenScript-Regular.ttf"  # Path to your default handwriting font
     font_path = None
 
     if uploaded_font is not None:
