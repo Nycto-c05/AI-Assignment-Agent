@@ -12,4 +12,5 @@ An AI tool to generate answers &amp; write your School/College Assignments in yo
 
     streamlit run app.py
 
+PS: Used reportlab, since it was the only library that worked with the WayLand Protocol
 
