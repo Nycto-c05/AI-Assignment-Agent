@@ -88,7 +88,7 @@ def create_handwritten_pdf(text, font_path):
 
 
 def main():
-    st.title("Handwritten Assigment Generator")
+    st.title("Assignment Aider")
     
     # Text input
     text = st.text_area("Enter your Assignment Questions here:", height=200)
